@@ -1,0 +1,13 @@
+<html xmlns:th="https://www.thymeleaf.org" lang="">
+<head>
+    <title>Hello Security!</title>
+</head>
+<body>
+<h1>Hello Security!</h1>
+<!-- 动态链接会自适应 context-path-->
+<a th:href="@{/logout}">Log Out 1</a>
+
+
+<a href="/logout">Log Out 2</a>
+</body>
+</html>
